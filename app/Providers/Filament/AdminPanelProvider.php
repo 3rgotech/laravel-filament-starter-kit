@@ -21,7 +21,6 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use Jeffgreco13\FilamentBreezy\BreezyCore;
-use Swis\Filament\Backgrounds\FilamentBackgroundsPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -65,7 +64,6 @@ class AdminPanelProvider extends PanelProvider
                 FilamentShieldPlugin::make(),
                 BreezyCore::make()
                     ->myProfile(shouldRegisterUserMenu: true),
-                FilamentBackgroundsPlugin::make(),
                 ThemesPlugin::make(),
             ])
             ->authMiddleware([
