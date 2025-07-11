@@ -46,6 +46,9 @@ php artisan shield:super-admin --user=1 --panel=admin
 php artisan shield:generate --all --ignore-existing-policies --panel=admin
 ```
 
+5️⃣ Create settings
+Update `app/Settings/GeneralSettings.php` and `database/settings/2023_01_01_000000_create_general_settings.php`
+
 ## 🌟Panel Include
 
 - [Breezy](https://filamentphp.com/plugins/jeffgreco-breezy) My Profile page.
