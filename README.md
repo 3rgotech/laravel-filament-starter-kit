@@ -52,6 +52,7 @@ Update `app/Settings/GeneralSettings.php` and `database/settings/2023_01_01_0000
 ## 🄻Laravel Include
 
 - [Spatie Laravel Permissions](https://spatie.be/docs/laravel-permission/) Roles and permissions managements
+- [Spatie Laravel Settings](https://github.com/spatie/laravel-settings) Settings management
 - [Blade Lucide Icons](https://github.com/PascaleBeier/blade-lucide-icons) [Lucide icons](https://lucide.dev/) for blade
 
 ## 🌟Panel Include
@@ -59,7 +60,7 @@ Update `app/Settings/GeneralSettings.php` and `database/settings/2023_01_01_0000
 - [Breezy](https://filamentphp.com/plugins/jeffgreco-breezy) My Profile page.
 - [Themes](https://filamentphp.com/plugins/hasnayeen-themes) Themes for Filament panels. Setup for `user` mode.
 - [Shield](https://filamentphp.com/plugins/bezhansalleh-shield) Access management to your Filament Panel's Resources, Pages & Widgets through spatie/laravel-permission.
-- [Settings](https://filamentphp.com/plugins/outerweb-settings) Integrates Outerweb/Settings into Filament.
+- [Settings](https://filamentphp.com/plugins/filament-spatie-settings) Integrates Spatie/Laravel-settings into Filament.
 - [Logger](https://filamentphp.com/plugins/z3d0x-logger) Extensible activity logger for filament that works out-of-the-box.
 
 ## 🧑‍💻Development Include

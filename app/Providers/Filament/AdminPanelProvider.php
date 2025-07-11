@@ -63,7 +63,11 @@ class AdminPanelProvider extends PanelProvider
             ->plugins([
                 FilamentShieldPlugin::make(),
                 BreezyCore::make()
-                    ->myProfile(shouldRegisterUserMenu: true),
+                    ->myProfile(
+                        shouldRegisterUserMenu: true,
+                        hasAvatars: true,
+                        slug: 'profile'
+                    ),
                 ThemesPlugin::make(),
             ])
             ->authMiddleware([
