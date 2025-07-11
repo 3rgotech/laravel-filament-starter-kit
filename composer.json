@@ -34,6 +34,7 @@
         "laravel/pail": "^1.2.2",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.41",
+        "larswiegers/laravel-translations-checker": "^0.9.3",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
         "phpunit/phpunit": "^11.5.3"
@@ -76,7 +77,8 @@
         "check": [
             "./vendor/bin/pint --dirty",
             "php artisan test",
-            "./vendor/bin/phpstan analyse --memory-limit=2G"
+            "./vendor/bin/phpstan analyse --memory-limit=2G",
+            "php artisan translation:check"
         ]
     },
     "extra": {
