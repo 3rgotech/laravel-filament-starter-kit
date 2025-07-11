@@ -62,6 +62,7 @@ Update `app/Settings/GeneralSettings.php` and `database/settings/2023_01_01_0000
 - [Shield](https://filamentphp.com/plugins/bezhansalleh-shield) Access management to your Filament Panel's Resources, Pages & Widgets through spatie/laravel-permission.
 - [Settings](https://filamentphp.com/plugins/filament-spatie-settings) Integrates Spatie/Laravel-settings into Filament.
 - [Logger](https://filamentphp.com/plugins/z3d0x-logger) Extensible activity logger for filament that works out-of-the-box.
+- [Laravel Log](https://filamentphp.com/plugins/saade-laravel-log) Log reading plugin for Filament
 
 ## 🧑‍💻Development Include
 
