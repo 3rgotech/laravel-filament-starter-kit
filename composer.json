@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "ercogx/laravel-filament-starter-kit",
+    "name": "3rgotech/laravel-filament-starter-kit",
     "type": "project",
     "description": "This is a Filament v3 Starter Kit for Laravel 12, designed to accelerate the development of Filament-powered applications.",
     "keywords": [
