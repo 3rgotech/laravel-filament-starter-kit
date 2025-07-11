@@ -1,4 +1,4 @@
-# 🚀 Glow Starter Kit
+# 🚀 Laravel Filament Starter Kit
 
 This is a **Filament v3 Starter Kit** for **Laravel 12**, designed to accelerate the development of Filament-powered applications.
 
@@ -18,7 +18,7 @@ composer global require laravel/installer
 Now you can create a new project using the Laravel Filament Starter Kit.
 
 ```bash
-laravel new test-kit --using=ercogx/laravel-filament-starter-kit
+laravel new test-kit --using=3rgotech/laravel-filament-starter-kit
 ```
 
 ## ⚙️ Setup
@@ -46,7 +46,7 @@ php artisan shield:super-admin --user=1 --panel=admin
 php artisan shield:generate --all --ignore-existing-policies --panel=admin
 ```
 
-## 🌟Panel Include 
+## 🌟Panel Include
 
 - [Breezy](https://filamentphp.com/plugins/jeffgreco-breezy) My Profile page.
 - [Themes](https://filamentphp.com/plugins/hasnayeen-themes) Themes for Filament panels. Setup for `user` mode.
@@ -61,11 +61,11 @@ php artisan shield:generate --all --ignore-existing-policies --panel=admin
 - [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) Generates helper files to improve autocompletion and static analysis in IDEs.
 - [larastan/larastan](https://github.com/larastan/larastan) A PHPStan extension for Laravel, configured at level 5 for robust static code analysis.
 
-This kit includes **Laravel Pint** for automatic PHP code styling and structured PHPDoc generation for your models.  
+This kit includes **Laravel Pint** for automatic PHP code styling and structured PHPDoc generation for your models.
 After running migrations, execute the following command to update model documentation:
 
 ```bash
-php artisan ide-helper:models -W && ./vendor/bin/pint app 
+php artisan ide-helper:models -W && ./vendor/bin/pint app
 ```
 
 The `composer check` script runs **tests, PHPStan, and Pint** for code quality assurance:

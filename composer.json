@@ -3,7 +3,13 @@
     "name": "ercogx/laravel-filament-starter-kit",
     "type": "project",
     "description": "This is a Filament v3 Starter Kit for Laravel 12, designed to accelerate the development of Filament-powered applications.",
-    "keywords": ["laravel", "framework", "glow starter kit", "livewire", "filament"],
+    "keywords": [
+        "laravel",
+        "framework",
+        "starter kit",
+        "livewire",
+        "filament"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
