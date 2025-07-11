@@ -49,6 +49,11 @@ php artisan shield:generate --all --ignore-existing-policies --panel=admin
 5️⃣ Create settings
 Update `app/Settings/GeneralSettings.php` and `database/settings/2023_01_01_000000_create_general_settings.php`
 
+## 🄻Laravel Include
+
+- [Spatie Laravel Permissions](https://spatie.be/docs/laravel-permission/) Roles and permissions managements
+- [Blade Lucide Icons](https://github.com/PascaleBeier/blade-lucide-icons) [Lucide icons](https://lucide.dev/) for blade
+
 ## 🌟Panel Include
 
 - [Breezy](https://filamentphp.com/plugins/jeffgreco-breezy) My Profile page.
